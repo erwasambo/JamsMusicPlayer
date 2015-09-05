@@ -5,14 +5,14 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.velocityviewpagerindicator"
-        minSdkVersion 4
-        targetSdkVersion 4
+        //applicationId "com.velocityviewpagerindicator"
+        minSdkVersion 14
+        targetSdkVersion 14
     }
 
     buildTypes {
         release {
-            runProguard false
+            //runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -21,4 +21,5 @@ android {
 dependencies {
     compile project(':velocityviewpagerlibrary')
     compile 'com.android.support:support-v4:+'
+
 }
